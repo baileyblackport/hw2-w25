@@ -2,8 +2,8 @@ body{
     font-family: Arial, Verdana;
     background-color: #000000;
     color: #FFFFFF;
-    margin: 20px 20px 0 20px;
-    overflow-x: hidden; /* Prevents horizontal scrolling */
+    margin: 20px 20px 0px 20px;
+    overflow-x: hidden; 
 }
 h1{
     font-size: 42px;
@@ -84,20 +84,17 @@ div {
     border-left: none;
     border-bottom: none;
 }
-footer, footer p {
-    margin: 0;
-    padding: 15px;
-    box-sizing: border-box;
-}
 
 footer {
     background: linear-gradient(to right, #000000, #0000ff 25%, #0066ff 70%, #000000);
     border: 5px solid #FFFFFF;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
 footer p {
     font-size: 20px;
     text-align: right;
-    padding-right: 15px; /* Only keeping right padding specific to <p> */
+    padding: 15px 15px 15px 0;
 }
 
