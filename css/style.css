@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Verdana;
     background-color: #000000;
     color: #FFFFFF;
     margin: 20px 20px 0 20px;
@@ -87,6 +87,10 @@ div {
 footer {
     background: linear-gradient(to right, #000000, #0000ff 25%, #0066ff 70%, #000000);
     border: 5px solid #FFFFFF;
+    padding: 15px 15px 15px 0;
+}
+
+footer p {
     font-size: 20px;
     text-align: right;
     padding: 15px 15px 15px 0;
